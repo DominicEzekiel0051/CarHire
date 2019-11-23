@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".HomeCarsList">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/image_path"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:padding="4dp"
+                tools:srcCompat="@drawable/a4" />
+
+            <TextView
+                android:id="@+id/image_name"
+                android:layout_width="261dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_toRightOf="@id/image_path"
+                android:text="image_name"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/pass_no"
+                android:layout_width="0dp"
+                android:layout_height="0dp"></TextView>
+            <!--android:layout_below="@id/image_name"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_toRightOf="@id/image_path"-->
+            <!--android:text="pass_no"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />-->
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="0dp"
+                android:layout_height="0dp"></TextView>
+            <!--android:layout_below="@id/pass_no"-->
+            <!--android:layout_marginLeft="7dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_toRightOf="@id/image_path"-->
+            <!--android:background="@color/colorPrimary"-->
+            <!--android:paddingLeft="15dp"-->
+            <!--android:paddingRight="15dp"-->
+            <!--android:text="price"-->
+            <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"-->
+            <!--android:textStyle="bold" />-->
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

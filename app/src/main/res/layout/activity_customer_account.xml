@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/list_divider"
+    android:layout_height="match_parent"
+    tools:context=".CustomerAccount">
+
+
+    <include
+        android:id="@+id/include3"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="198dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        app:srcCompat="@drawable/baseline_person_outline_white_18dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/include3"
+        android:layout_alignLeft="@+id/include3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:text="You are logged in as a customer"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="392dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/include3"
+        android:layout_alignLeft="@+id/include3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="289dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="openDb_CarsListRecyclerView"
+        android:text="view cars list"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="387dp"
+        android:layout_height="65dp"
+        android:layout_alignStart="@+id/include3"
+        android:layout_alignLeft="@+id/include3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:onClick="openDb_CarsListRecyclerView"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Make Reservation"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="390dp"
+        android:layout_height="68dp"
+        android:layout_alignStart="@+id/include3"
+        android:layout_alignLeft="@+id/include3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="View Reservation"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_alignEnd="@+id/include3"
+        android:layout_alignRight="@+id/include3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="533dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="Log-out"
+        android:textSize="18sp" />
+
+</RelativeLayout>

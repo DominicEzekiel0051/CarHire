@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+    <item
+
+        android:id="@+id/share_icon"
+        android:title="share"
+        android:icon="@mipmap/share_icon_18dp"
+        app:showAsAction="ifRoom"
+    />
+
+
+    <item
+
+    android:id="@+id/car_icon"
+    android:title="car"
+    android:icon="@mipmap/taxi_icon_18dp"
+    app:showAsAction="always"
+    />
+
+</menu>

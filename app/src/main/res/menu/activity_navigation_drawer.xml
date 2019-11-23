@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/topPanel"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/user_account"
+            android:icon="@drawable/baseline_person_outline_white_18dp"
+            android:title="Account" />
+
+        <item
+            android:id="@+id/reservation_booking"
+            android:icon="@drawable/baseline_local_taxi_white_18dp"
+            android:title="Make Reservation/Booking" />
+        <item
+            android:id="@+id/my_reservation"
+            android:icon="@drawable/baseline_local_taxi_white_18dp"
+            android:title="My Reservation" />
+
+
+
+
+    </group>
+
+    <group
+        android:id="@+id/middlePannel"
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/baseline_local_phone_white_18dp"
+        android:title="Contact Us"
+        />
+
+        <item
+            android:id="@+id/Share"
+            android:icon="@drawable/baseline_share_white_18dp"
+            android:title="Share" />
+
+        <item
+            android:id="@+id/Settings"
+            android:icon="@drawable/baseline_settings_white_18dp"
+            android:title="Settings" />
+
+    </group>
+
+</menu>
